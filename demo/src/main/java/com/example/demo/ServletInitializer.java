@@ -8,7 +8,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
     {
-        // test
+        // 注释
         return application.sources(DemoApplication.class);
     }
 
